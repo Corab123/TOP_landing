@@ -55,12 +55,6 @@ ul{
     width: 320px;
     height: auto;
 }
-.information{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    
-}
 
 h2{
     text-align: center;
@@ -71,10 +65,31 @@ h2{
     padding:0;
 }
 
-.information > a > img{
-    height: 100px;
+.information{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
 }
 
-.information > a {
+.info_individual > p {
+    width: 150px;
+    height: 48px;
+    text-align:center;
+
+}
+.info_individual > a > img{
+    width: 150px;
+    height: 100px;
+    border-radius: 8px;
+    border-color: #3882f6;
+}
+
+.info_individual > a {
     order: -1;
+}
+
+.quote {
+    background-color: #e5e7eb;
 }
