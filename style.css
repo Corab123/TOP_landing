@@ -53,8 +53,9 @@ ul{
     text-decoration: none;
 }
 .description > img {
-    width: 320px;
+    width: 240px;
     height: auto;
+    flex-shrink:1
 }
 
 h2{
